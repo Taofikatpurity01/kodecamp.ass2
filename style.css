@@ -1,0 +1,117 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Playfair Display", serif;
+}
+
+  .ctn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    width: 80%;
+    /* margin: 0 auto; */
+    padding: 40px 0;
+  }
+.logo
+  {
+    display: flex;
+    justify-content: end;
+    /* align-content: end; */
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 100%;
+  
+  }
+.logo img{
+    width: 70px;
+    /* margin-left: 70px; */
+
+  }
+  .hori {
+    display: flex;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 800;
+    color:#086DB8;
+    /* padding: 20px; */
+    font-size: 35px;
+    font-weight: 800;
+  /*   margin-bottom: 5px; */
+  }
+  form {
+    margin-top: 20px;
+    
+  }
+  .radio_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .radio_btn input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    /* border-radius: 5px; */
+  }
+  .radio{
+    display: flex;
+    gap: 2px;
+    
+  }
+  .form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-right: 40px;
+  }
+  .btn {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+  }
+  .btn button {
+    background-color:#086DB8;
+    color: white;
+    border-radius: 8px 0 8px 0;
+    border: none;
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  textarea{
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  label{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .blk{
+    background-color: rgba(0, 0, 0, 0.596);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+  .img{
+    background-image: url(./img/pexels-andres-ayrton-6578392\ 1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+  }
+  
