@@ -7,70 +7,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     font-family: "Playfair Display", serif;
+    background-color: whitesmoke;
 }
-
-  .ctn{
+  
+   .ctn{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8rem;
+    gap: 4px;
+    /* padding: 40px 60px; */
     width: 80%;
-    /* margin: 0 auto; */
-    padding: 40px 0;
-  }
-.logo
-  {
+    margin:30px auto;
+    background-color: white;
+   }
+   .logo{
     display: flex;
     justify-content: end;
-    /* align-content: end; */
-    padding-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 70px;
-    width: 100%;
-  
-  }
-.logo img{
-    width: 70px;
-    /* margin-left: 70px; */
-
-  }
-  .hori {
-    display: flex;
-    gap: 20px;
-  }
-  a {
+   }
+   a {
     text-decoration: none;
     font-weight: 800;
     color:#086DB8;
-    /* padding: 20px; */
-    font-size: 35px;
-    font-weight: 800;
-  /*   margin-bottom: 5px; */
-  }
-  form {
+    padding: 20px;
+     font-size: 35px;
+    font-weight: 800; 
+    margin-bottom: 5px;
+   }
+   .form{
+    padding: 20px 40px;
+   }
+   form{
     margin-top: 20px;
-    
+   }
+   .hori{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+   }
+   input{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    margin-top: 7px;
+
+   }
+   .fle input{
+    border-radius: 5px;
+   }
+   label{
+    font-size: 20px;
+    font-weight: 800;
+    /* margin-bottom: 10px; */
   }
   .radio_btn{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-  }
-  .radio_btn input[type="radio"] {
-    width: 20px;
-    height: 20px;
-    border: 2px solid black;
-    /* border-radius: 5px; */
+    margin-bottom: 25px;
+  } 
+  i{
+    margin-top: 8px;
   }
   .radio{
     display: flex;
     gap: 2px;
-    
   }
-  .form {
-    width: 70%;
-    margin: 0 auto;
-    padding: 20px 0;
-    margin-right: 40px;
+   .blk{
+    background-color: rgba(0, 0, 0, 0.596);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  textarea{
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .img{
+    background-image: url(./img/pexels-andres-ayrton-6578392\ 1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100%; */
   }
   .btn {
     display: flex;
@@ -84,34 +103,5 @@ body{
     border: none;
     padding: 10px 40px;
     font-size: 20px;
-  }
-  input {
-    width: 300px;
-    height: 40px;
-    border: 2px solid black;
-    border-radius: 5px;
-  }
-  textarea{
-    border: 2px solid black;
-    border-radius: 5px;
-  }
-  label{
-    font-size: 20px;
-    font-weight: 800;
-  }
-  .blk{
-    background-color: rgba(0, 0, 0, 0.596);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 90vh;
-  }
-  .img{
-    background-image: url(./img/pexels-andres-ayrton-6578392\ 1.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 100%;
   }
   
