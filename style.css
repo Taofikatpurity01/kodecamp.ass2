@@ -89,6 +89,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
     /* width: 100%; */
   }
   .btn {
@@ -103,5 +104,19 @@ body{
     border: none;
     padding: 10px 40px;
     font-size: 20px;
+  }
+  .camp{
+    position: absolute;
+    font-size: 35px;
+    right:200px;
+    top: 80px;
+    color: white;
+  }
+  .join{
+    position: absolute;
+    font-size: 20px;
+    right:360px;
+    top: 630px;
+    color: white;
   }
   
